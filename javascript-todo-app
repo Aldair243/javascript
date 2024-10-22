@@ -1,0 +1,22 @@
+javascript-todo-app/  
+├── index.html ├── styles.css ├── app.js └── README.md ```  
+
+2. **Contenido de los archivos**:  
+
+- **index.html**:  
+```html <!DOCTYPE html>  
+<html lang="es">  
+<head>  
+<meta charset="UTF-8">  
+<meta name="viewport" content="width=device-width, initial-scale=1.0">  
+<link rel="stylesheet" href="styles.css">  
+<title>Todo App</title>  
+</head>  
+<body>  
+<h1>Mi Lista de Tareas</h1>  
+<input type="text" id="taskInput" placeholder="Añadir nueva tarea">  
+<button onclick="addTask()">Añadir</button>  
+<ul id="taskList"></ul>  
+<script src="app.js"></script>  
+</body>  
+</html>
